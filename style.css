@@ -7,6 +7,7 @@
 
 button {
   border: 1px solid #83C178;
+  cursor: pointer;
 }
 
 .calc-body {
@@ -37,6 +38,15 @@ button {
 }
 
 .operator {
+  background-color: #83C178;
+  color: black;
+}
+
+.operator:hover {
+  color: white;
+}
+
+#clear:hover {
   background-color: #83C178;
 }
 
