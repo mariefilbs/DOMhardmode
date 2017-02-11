@@ -100,7 +100,7 @@ var threeButton = document.getElementById('3')
 //Multiply Button
   var multiplyButton = document.getElementById('multiply')
     var multiplyClick = function () {
-      calcinput.value += "*"
+      calcinput.value += "x"
     };
 
     multiplyButton.addEventListener ("click", multiplyClick);
